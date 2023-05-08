@@ -803,7 +803,7 @@ df['Complaint Type'].value_counts().plot(kind = 'bar', figsize=(15, 10), title='
 
 
 
-![png](output_28_1.png)
+![Complaint Type](https://ibb.co/kJRbQMB)
 
 
 #### Let's see how does Brooklyn look like
@@ -831,7 +831,7 @@ df_Brooklyn[['Longitude', 'Latitude']].plot(kind='scatter',
 
 
 
-![png](output_32_1.png)
+![Complaints concentration across Brooklyn](https://ibb.co/DbVKppw)
 
 
 - ##### Hexbin
@@ -853,7 +853,7 @@ df_Brooklyn[['Longitude', 'Latitude']].plot(kind='hexbin',
 
 
 
-![png](output_34_1.png)
+![Complaints concentration across Brooklyn](https://ibb.co/jHzryGK)
 
 
 ##### Plotting a bar graph of count vs. complaint types
@@ -870,7 +870,7 @@ plt.show()
 ```
 
 
-![png](output_37_0.png)
+![Complaint Type](https://ibb.co/YpJGQ7d)
 
 
 
@@ -1154,7 +1154,7 @@ plt.show()
 ```
 
 
-![png](output_41_0.png)
+![Categorywise Complaints per city](https://ibb.co/Pj4v30T)
 
 
 - ##### Major types of complaints in each city *(more than 100 complaints)*
